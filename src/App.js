@@ -6,7 +6,7 @@ function App() {
 
     async function save() {
 
-        const getTimeList = await fetch("http://localhost:8080/api/getTimeList", {
+        const getTimeList = await fetch("https://thsis456-2db1b1542ba9.herokuapp.com/api/getTimeList", {
             method: 'GET',
             headers: {
                 'Access-Control-Allow-Origin': '*',
